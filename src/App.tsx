@@ -64,7 +64,8 @@ function App() {
       <Flex
         direction="column"
         align="center"
-        minH="100vh"
+        h="100vh"
+        w="100vw"
         px={{ base: 4, md: 8 }}
         pt={8}
       >
@@ -116,7 +117,23 @@ function App() {
           ))}
         </Stack>
 
-        <Flex as="footer" justify="center" w="100vw" mt={12}>
+        <Flex
+          as="footer"
+          align="center"
+          w="100vw"
+          mt={12}
+          flexDirection={"column"}
+        >
+          <Text
+            cursor={"pointer"}
+            fontSize="xs"
+            color={"#3b82f6"}
+            onClick={() => {
+              window.open("https://rashad.wiki", "_blank");
+            }}
+          >
+            @rashad.wiki
+          </Text>
           <Text fontSize="xs">Copyright of StoneHedge Labs™ 2023</Text>
         </Flex>
       </Flex>

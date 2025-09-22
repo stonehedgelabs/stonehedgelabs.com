@@ -56,6 +56,11 @@ function App() {
       description:
         "A boutique cybersecurity concierge service offering tailored digital-security solutions.",
     },
+    {
+      name: "Libx",
+      url: "https://libx.stream",
+      description: "A web-based tool used to export your Spotify library.",
+    },
   ];
 
   return (

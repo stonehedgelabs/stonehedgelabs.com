@@ -82,11 +82,11 @@ function App() {
           mt={4}
           textAlign="center"
         >
-          Stone Hedge Labs
+          Stonehedge Labs
         </Heading>
         <Box maxW="500px" p={4}>
           <Text textAlign="center">
-            Stone Hedge Labs is an innovation studio building both technical and
+            Stonehedge Labs is an innovation studio building both technical and
             non-technical projects under one umbrella. From open-source tools
             like SystemG to tailored security services like EsperTech, we
             experiment, prototype, and launch dope shit.

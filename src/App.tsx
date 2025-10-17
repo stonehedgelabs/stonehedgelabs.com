@@ -45,6 +45,11 @@ const system = createSystem(defaultConfig, config);
 function App() {
   const projects = [
     {
+      name: "Arbitration",
+      url: "https://arbi.gg",
+      description: "Scores. Reactions. Real-time.",
+    },
+    {
       name: "SystemG",
       url: "https://sysg.dev",
       description:

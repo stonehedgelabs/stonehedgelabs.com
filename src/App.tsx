@@ -56,6 +56,12 @@ function App() {
         "An open-source process manager tool for streamlined development workflows.",
     },
     {
+      name: "Midgame",
+      url: "https://midgame.bet",
+      description:
+        "Midgame delivers data-driven sports predictions directly to your device—no SMS, no email—just instant push notifications with winning insights across NFL, NBA.",
+    },
+    {
       name: "Libx",
       url: "https://libx.stream",
       description: "A web-based tool used to export your Spotify library.",

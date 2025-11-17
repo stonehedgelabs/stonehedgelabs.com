@@ -56,15 +56,21 @@ function App() {
         "An open-source process manager tool for streamlined development workflows.",
     },
     {
-      name: "EsperTech",
-      url: "https://espertech.io",
-      description:
-        "A boutique cybersecurity concierge service offering tailored digital-security solutions.",
-    },
-    {
       name: "Libx",
       url: "https://libx.stream",
       description: "A web-based tool used to export your Spotify library.",
+    },
+    {
+      name: "EsperTech",
+      url: "https://espertech.io",
+      description:
+          "A boutique cybersecurity concierge service offering tailored digital-security solutions.",
+    },
+    {
+      name: "(Coming Soon) 🚧 Roxi",
+      url: "https://github.com/stonehedgelabs/roxi",
+      description:
+          "An open-source peer-to-peer, Wireguard-based VPN tool.",
     },
   ];
 

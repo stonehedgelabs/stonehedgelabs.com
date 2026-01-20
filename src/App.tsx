@@ -56,6 +56,12 @@ function App() {
         "An open-source process manager tool for streamlined development workflows.",
     },
     {
+      name: "Rust MCP Kit (mcpkit-rs)",
+      url: "https://github.com/ra0x3/mcpkit-rs",
+      description:
+        "An open-source fork of the official Model Control Protocol (MCP) Rust SDK with added Web Assembly (WASM) integration.",
+    },
+    {
       name: "Midgame",
       url: "https://midgame.bet",
       description:
@@ -70,13 +76,12 @@ function App() {
       name: "EsperTech",
       url: "https://espertech.io",
       description:
-          "A boutique cybersecurity concierge service offering tailored digital-security solutions.",
+        "A boutique cybersecurity concierge service offering tailored digital-security solutions.",
     },
     {
       name: "(Coming Soon) 🚧 Roxi",
       url: "https://github.com/stonehedgelabs/roxi",
-      description:
-          "An open-source peer-to-peer, Wireguard-based VPN tool.",
+      description: "An open-source peer-to-peer, Wireguard-based VPN tool.",
     },
   ];
 

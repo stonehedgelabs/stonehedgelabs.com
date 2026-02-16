@@ -108,10 +108,24 @@ function App() {
         </Heading>
         <Box maxW="500px" p={4}>
           <Text textAlign="center">
-            Stonehedge Labs is an innovation studio building both technical and
-            non-technical projects under one umbrella. From open-source tools
-            like SystemG to tailored security services like EsperTech, we
-            experiment, prototype, and launch dope shit.
+            Stonehedge Labs is a software venture studio building both technical
+            projects ranging from open-source tools like{" "}
+            <Link
+              href="https://sysg.dev"
+              color="blue.500"
+              textDecoration="underline"
+            >
+              SystemG
+            </Link>{" "}
+            to consumer sports platforms like{" "}
+            <Link
+              href="https://arbi.gg"
+              color="blue.500"
+              textDecoration="underline"
+            >
+              Arbitration
+            </Link>
+            . We experiment, prototype, and launch dope shit.
           </Text>
         </Box>
 

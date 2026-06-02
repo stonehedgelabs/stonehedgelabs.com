@@ -45,9 +45,20 @@ const system = createSystem(defaultConfig, config);
 function App() {
   const projects = [
     {
+      name: "Esper",
+      url: "https://esperr.com",
+      description: "Programmable traffic protection.",
+    },
+    {
       name: "Arbitration",
       url: "https://arbi.gg",
       description: "Scores. Reactions. Real-time.",
+    },
+    {
+      name: "Gamecast",
+      url: "https://gamecastt.com",
+      description:
+        "The fastest, most accurate, most affordable real-time sports API in the world.",
     },
     {
       name: "SystemG",
@@ -62,26 +73,9 @@ function App() {
         "An open-source fork of the official Model Control Protocol (MCP) Rust SDK with added Web Assembly (WASM) integration.",
     },
     {
-      name: "Midgame",
-      url: "https://midgame.bet",
-      description:
-        "Midgame delivers data-driven sports predictions directly to your device—no SMS, no email—just instant push notifications with winning insights across NFL, NBA.",
-    },
-    {
       name: "Libx",
       url: "https://libx.stream",
       description: "A web-based tool used to export your Spotify library.",
-    },
-    {
-      name: "EsperTech",
-      url: "https://espertech.io",
-      description:
-        "A boutique cybersecurity concierge service offering tailored digital-security solutions.",
-    },
-    {
-      name: "(Coming Soon) 🚧 Roxi",
-      url: "https://github.com/stonehedgelabs/roxi",
-      description: "An open-source peer-to-peer, Wireguard-based VPN tool.",
     },
   ];
 
